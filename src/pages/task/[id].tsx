@@ -5,7 +5,7 @@ import styles from './style.module.css';
 import Head from 'next/head';
 import { Textarea } from '../../components/textarea';
 
-import { db } from '../services/firebaseConnection';
+import { db } from '../../services/firebaseConnection';
 import {
     doc,
     collection,
